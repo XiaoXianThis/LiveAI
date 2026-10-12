@@ -1,0 +1,15 @@
+node_modules
+bin
+data
+*.db
+.worker-dist
+.DS_Store
+
+# secrets: env files (keep templates), keys and certificates
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
